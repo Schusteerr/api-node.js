@@ -12,8 +12,8 @@ API para gerenciar vídeos usando **Node.js**, **Fastify**, **PostgreSQL** e **D
 
 ### 1️⃣ Clone o Repositório
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/Schusteerr/api-nodejs
+cd api-nodejs
 ```
 
 ### 2️⃣ Configure o Ambiente  
