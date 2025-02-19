@@ -1,0 +1,35 @@
+@PORT=SUA_PORTA_AQUI
+@ID=SEU_ID_AQUI
+
+
+# Criar um novo vídeo
+POST http://localhost:{{PORT}}/videos
+Content-type: application/json
+
+{
+    "title" : "Video 01",
+    "description": "usual meme",
+    "duration": 60
+}
+
+###
+
+# Listar todos os vídeos
+GET http://localhost:{{PORT}}/videos
+
+###
+
+# Atualizar um vídeo pelo ID
+PUT http://localhost:{{PORT}}/videos/{{ID}}
+Content-type: application/json
+
+{
+    "title" : "Video Atualizado",
+    "description": "meme atualizado",
+    "duration": 90
+}
+
+###
+
+# Deletar um vídeo pelo ID
+DELETE http://localhost:{{PORT}}/videos/{{ID}}
