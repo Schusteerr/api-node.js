@@ -41,12 +41,6 @@ npm install
 ```bash
 node server.js
 ```
-  ou 
-```bash
-npm run dev
-```
-para rodar o servidor utilizando o método _--watch_
-
 
 ### 6️⃣ Teste as Rotas  
   * Use o arquivo routes.http para testar as rotas rapidamente.
