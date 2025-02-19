@@ -43,7 +43,7 @@ node server.js
 ```
 
 ### 6️⃣ Teste as Rotas  
-  * Use o arquivo routes.http para testar as rotas rapidamente.
+  * Use o arquivo `routes.http` para testar as rotas rapidamente.
 * Certifique-se de que o banco de dados esteja rodando corretamente via Docker.
 
 ## 📌 Rotas Disponíveis
