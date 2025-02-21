@@ -1,6 +1,6 @@
-# 📹 Video API
+# 📹 Teste Video API
 
-API para gerenciar vídeos usando **Node.js**, **Fastify**, **PostgreSQL** e **Docker**.
+Projeto API para gerenciar parâmetros de vídeos usando **Node.js**, **Fastify**, **PostgreSQL** e **Docker**.
 
 ## 🚀 Tecnologias Usadas
 - Node.js
